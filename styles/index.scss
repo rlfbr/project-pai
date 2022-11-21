@@ -1,0 +1,55 @@
+@import "variables";
+
+a {
+     all: unset;
+}
+
+body {
+     background-color: $grey;
+     color: white;
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     display: flex;
+     flex-direction: column;
+
+     nav {
+          display: flex;
+          flex-direction: row;
+     }
+
+     .hero-error-container {
+          margin-top: 250px;
+          font-family: 'Clash Display', sans-serif;
+          width: fit-content;
+          margin-right: auto;
+          margin-left: auto;
+          text-align: center;
+          justify-content: center;
+          height: fit-content;
+          // background-color: red;
+
+          .hero-error-text {
+               font-weight: 500;
+               font-size: 64px;
+          }
+
+          .hero-error-desc {
+               margin-top: -50px;
+               font-weight: 400;
+               letter-spacing: 0px;
+               font-size: 24px;
+
+               a {
+                    text-decoration: underline;
+                    transition: opacity .15s ease-in-out;
+                    color: $green;
+               }
+
+               a:hover {
+                    cursor: pointer;
+                    opacity: 90%;
+               }
+          }
+     }
+}

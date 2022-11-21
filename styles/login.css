@@ -1,0 +1,10 @@
+@import url("https://fonts.cdnfonts.com/css/clash-display");
+textarea:focus,
+input:focus {
+  outline: none;
+}
+
+a {
+  all: unset;
+}
+/*# sourceMappingURL=login.css.map */

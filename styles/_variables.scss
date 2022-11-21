@@ -1,0 +1,19 @@
+@import url('https://fonts.cdnfonts.com/css/clash-display');
+$green: #9fef00;
+$green-light: #ffffff59;
+$grey: rgb(17, 17, 17);
+$error-red: rgb(253, 86, 86);
+$info-yellow: rgb(247, 250, 79);
+
+$padding: 200px;
+
+// global styles
+
+textarea:focus,
+input:focus {
+     outline: none;
+}
+
+a {
+     all: unset;
+}

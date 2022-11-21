@@ -1,0 +1,152 @@
+@import "variables";
+
+body {
+     background-color: $grey;
+     color: white;
+     margin: 0;
+     padding: 0;
+     font-family: 'Clash Display', sans-serif;
+     box-sizing: border-box;
+
+     form {
+          display: flex;
+          flex-direction: column;
+          width: 300px;
+          margin-left: auto;
+          margin-right: auto;
+          display: flex;
+          margin-top: 8%;
+          box-sizing: border-box;
+
+          input {
+               font-family: 'Clash Display', sans-serif;
+          }
+
+          .input {
+               border: none;
+               height: 44px;
+               padding-left: 20px;
+               font-size: 18px;
+               font-weight: 500;
+               box-sizing: border-box;
+               border-bottom: 4px solid $green;
+          }
+
+          input[type='submit'] {
+               margin-top: 10px;
+               height: 60px;
+               background-color: $green;
+               color: $green;
+               background-color: $grey;
+               border: solid 2px $green;
+               box-sizing: border-box;
+               font-size: 16px;
+               font-weight: 500;
+               letter-spacing: 1px;
+               transition: background-color .2s ease-in-out;
+          }
+
+          input[type='submit']:hover {
+               cursor: pointer;
+               background-color: $green;
+               color: $grey;
+               font-weight: 600;
+               box-sizing: border-box;
+          }
+
+          .show-option {
+               margin-top: 10px;
+               box-sizing: border-box;
+               font-size: 15px;
+               font-weight: 500;
+               letter-spacing: 1px;
+               display: flex;
+               align-items: center;
+
+               input {
+                    margin-right: 5px;
+               }
+          }
+     }
+
+     .error-popout {
+          margin-top: 20px;
+          width: 246px;
+          margin-left: auto;
+          margin-right: auto;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          padding: 5px 25px 5px 25px;
+          border: solid 2px $error-red;
+
+          a {
+               text-decoration: underline;
+          }
+
+          a:hover {
+               cursor: pointer;
+          }
+
+          p {
+               font-size: 18px;
+               text-align: center;
+               color: $error-red;
+               letter-spacing: .5px;
+          }
+     }
+
+     .success-popout {
+          margin-top: 20px;
+          width: 246px;
+          margin-left: auto;
+          margin-right: auto;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          padding: 5px 25px 5px 25px;
+          border: solid 2px $green;
+
+          a {
+               text-decoration: underline;
+          }
+
+          a:hover {
+               cursor: pointer;
+          }
+
+          p {
+               font-size: 18px;
+               text-align: center;
+               color: $green;
+               letter-spacing: .5px;
+          }
+     }
+
+     .info-popout {
+          margin-top: 20px;
+          width: 246px;
+          margin-left: auto;
+          margin-right: auto;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          padding: 5px 25px 5px 25px;
+          border: solid 2px $info-yellow;
+
+          a {
+               text-decoration: underline;
+          }
+
+          a:hover {
+               cursor: pointer;
+          }
+
+          p {
+               font-size: 18px;
+               text-align: center;
+               color: $info-yellow;
+               letter-spacing: .5px;
+          }
+     }
+}

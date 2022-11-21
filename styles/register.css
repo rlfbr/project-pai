@@ -1,0 +1,195 @@
+@import url("https://fonts.cdnfonts.com/css/clash-display");
+textarea:focus,
+input:focus {
+  outline: none;
+}
+
+a {
+  all: unset;
+}
+
+body {
+  background-color: #111111;
+  color: white;
+  margin: 0;
+  padding: 0;
+  font-family: 'Clash Display', sans-serif;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  margin-top: 8%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body form input {
+  font-family: 'Clash Display', sans-serif;
+}
+
+body form .input {
+  border: none;
+  height: 44px;
+  padding-left: 20px;
+  font-size: 18px;
+  font-weight: 500;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-bottom: 4px solid #9fef00;
+}
+
+body form input[type='submit'] {
+  margin-top: 10px;
+  height: 60px;
+  background-color: #9fef00;
+  color: #9fef00;
+  background-color: #111111;
+  border: solid 2px #9fef00;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  -webkit-transition: background-color .2s ease-in-out;
+  transition: background-color .2s ease-in-out;
+}
+
+body form input[type='submit']:hover {
+  cursor: pointer;
+  background-color: #9fef00;
+  color: #111111;
+  font-weight: 600;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body form .show-option {
+  margin-top: 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body form .show-option input {
+  margin-right: 5px;
+}
+
+body .error-popout {
+  margin-top: 20px;
+  width: 246px;
+  margin-left: auto;
+  margin-right: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 5px 25px 5px 25px;
+  border: solid 2px #fd5656;
+}
+
+body .error-popout a {
+  text-decoration: underline;
+}
+
+body .error-popout a:hover {
+  cursor: pointer;
+}
+
+body .error-popout p {
+  font-size: 18px;
+  text-align: center;
+  color: #fd5656;
+  letter-spacing: .5px;
+}
+
+body .success-popout {
+  margin-top: 20px;
+  width: 246px;
+  margin-left: auto;
+  margin-right: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 5px 25px 5px 25px;
+  border: solid 2px #9fef00;
+}
+
+body .success-popout a {
+  text-decoration: underline;
+}
+
+body .success-popout a:hover {
+  cursor: pointer;
+}
+
+body .success-popout p {
+  font-size: 18px;
+  text-align: center;
+  color: #9fef00;
+  letter-spacing: .5px;
+}
+
+body .info-popout {
+  margin-top: 20px;
+  width: 246px;
+  margin-left: auto;
+  margin-right: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 5px 25px 5px 25px;
+  border: solid 2px #f7fa4f;
+}
+
+body .info-popout a {
+  text-decoration: underline;
+}
+
+body .info-popout a:hover {
+  cursor: pointer;
+}
+
+body .info-popout p {
+  font-size: 18px;
+  text-align: center;
+  color: #f7fa4f;
+  letter-spacing: .5px;
+}
+/*# sourceMappingURL=register.css.map */

@@ -1,0 +1,81 @@
+@import url("https://fonts.cdnfonts.com/css/clash-display");
+textarea:focus,
+input:focus {
+  outline: none;
+}
+
+a {
+  all: unset;
+}
+
+a {
+  all: unset;
+}
+
+body {
+  background-color: #111111;
+  color: white;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+body .hero-error-container {
+  margin-top: 250px;
+  font-family: 'Clash Display', sans-serif;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+body .hero-error-container .hero-error-text {
+  font-weight: 500;
+  font-size: 64px;
+}
+
+body .hero-error-container .hero-error-desc {
+  margin-top: -50px;
+  font-weight: 400;
+  letter-spacing: 0px;
+  font-size: 24px;
+}
+
+body .hero-error-container .hero-error-desc a {
+  text-decoration: underline;
+  -webkit-transition: opacity .15s ease-in-out;
+  transition: opacity .15s ease-in-out;
+  color: #9fef00;
+}
+
+body .hero-error-container .hero-error-desc a:hover {
+  cursor: pointer;
+  opacity: 90%;
+}
+/*# sourceMappingURL=index.css.map */
